@@ -1,6 +1,6 @@
 # WebServiceBun
 
-A modern web service application built with the **Bun** ecosystem. This project demonstrates a **Microservices-style** architecture (separating Client and Server) using Bun, Elysia, Nunjucks, and SQLite, replicating the architecture of [c004-webservice](https://github.com/hepidad/c004-webservice).
+A modern web service application built with the **Bun** ecosystem. This project demonstrates a **Web Service-style** architecture (separating Client and Server) using Bun, Elysia, Nunjucks, and SQLite, replicating the architecture of [c004-webservice](https://github.com/hepidad/c004-webservice).
 
 ## Architecture
 
@@ -30,7 +30,7 @@ This project is divided into two separate applications:
 WebServiceBun/
 ├── Server/               # Backend API
 │   ├── index.ts          # API Server Logic
-│   ├── carsweb.db        # Database File
+│   ├── cars.db           # Database File
 │   └── ...
 ├── Client/               # Frontend Application
 │   ├── index.ts          # Client Server Logic

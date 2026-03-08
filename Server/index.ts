@@ -22,7 +22,7 @@ import { cors } from '@elysiajs/cors';
 const PORT = 5012; // Matching the port from the reference repo (carsweb-server.py)
 
 // --- 2. DATABASE SETUP ---
-const db = new Database('carsweb.db');
+const db = new Database('cars.db');
 
 // Create Table
 db.query(`
